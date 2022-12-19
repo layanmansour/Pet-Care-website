@@ -1,0 +1,143 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'optima', sans-serif	;
+ 
+    
+}
+
+
+
+
+body{
+   
+    background: url('../images/background3.jpeg'); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat ;
+
+        padding: 0;
+        margin: 0;
+        padding-top: 30vh;
+       
+
+    
+    }
+
+.container{
+    
+    width: 380px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 172px;
+    align-items: center ;
+    background-color:#ffffff;
+    border-radius: 15px;
+    padding: 25px 10x;
+    font-family:Cursive;     
+      line-height: 330%;
+      color: #00556D;
+     
+    
+
+}
+.butt{
+    background-color: #D8F5FD;}
+#n{
+      font-size: 18px;
+      
+  
+}
+.dog{
+    position: absolute;
+        top:100px;
+        left: 550px;
+        margin-top: 60px;
+       width:700px;
+       height: 400px;
+    
+   }
+input{
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin: 5px ;
+    text-align: center;
+    font-size: 15px;
+    background-color:#D8F5FD;
+    color: #00556D;
+
+}
+text{
+    background-color: rgb(59, 59, 59);
+}
+select{
+    height: 20px;
+    width: 200px;
+    margin: 5px ; 
+}
+button{
+    background-color: #ffffff;
+    color: #00556D;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 10px;
+    font-size: 17px;
+    margin: 5px 15px;
+}
+button:hover{
+    background-color: rgb(226, 226, 228);
+}
+ label{
+    font-size: 15px;   
+ }
+
+
+ .navbar{ 
+    background-color: #ffffff;
+    position: absolute;
+    width:100%;
+    height:100px; 
+    margin-top:-625px;
+    }
+    .navbar a:hover {
+        background: #f1f1f1;
+        color: black;
+      }
+      .navbar a{
+      float:  right;
+      display: block;
+    color:#00556D ;
+
+      text-align: center;
+      padding: 40px 40px;
+      text-decoration: none;
+      font-size: 18px;
+      }
+      .logo{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        margin-top: -20px;
+       width: 250px;
+       height: 140px;
+          
+       }
+
+           .profile{
+            position: absolute;
+             top: 15px;
+             right: 20px;
+             width: 70px;
+             height: 70px;
+           }
+
+
+           
+

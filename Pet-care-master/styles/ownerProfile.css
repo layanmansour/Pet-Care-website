@@ -1,0 +1,93 @@
+* {
+  font-family: "optima", sans-serif;
+}
+
+body {
+  background: url("../images/petFootSteps-left.png") repeat center center fixed;
+  margin-bottom: auto;
+}
+
+.container {
+  color: #00556d;
+  width: 700px;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  margin-left: 380px;
+  align-items: center;
+  background-color: rgb(201, 230, 238);
+  border-radius: 15px;
+  padding: 25px 10px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-top: -140px;
+  align-items: center;
+  text-align: center;
+}
+
+.E {
+  background-color: #00556d;
+  color: #ffffff;
+  border: none;
+  padding: 8px 30px;
+  border-radius: 10px;
+  font-size: 18px;
+  margin: 5px 25px;
+  align-items: center;
+}
+.E:hover {
+  background-color: rgb(90, 151, 151);
+}
+
+.D {
+  background-color: #00556d;
+  color: #ffffff;
+  border: none;
+  padding: 8px 30px;
+  border-radius: 10px;
+  font-size: 18px;
+  margin: 5px 25px;
+  align-items: center;
+}
+button:hover {
+  background-color: rgb(238, 8, 8);
+}
+
+.L {
+  background-color: #00556d;
+  color: #ffffff;
+  border: none;
+  padding: 8px 30px;
+  border-radius: 10px;
+  font-size: 18px;
+  margin: 5px 25px;
+  align-items: center;
+}
+.L:hover {
+  background-color: rgb(238, 8, 8);
+}
+.container .buttons {
+  position: absolute;
+  margin: 15px auto;
+  margin-top: 527px;
+}
+
+.container p {
+  color: #00556d;
+  background-color: white;
+  width: 250px;
+  border-radius: 15px;
+  font-size: 20px;
+  padding: 10px;
+  margin: 4px;
+}
+
+.profilePic {
+  width: 130px;
+  height: 130px;
+  border-radius: 80%;
+}

@@ -1,0 +1,82 @@
+* {
+  font-family: "optima", sans-serif;
+}
+body {
+  background: url("../images/petFootSteps-left.png") repeat center center fixed;
+  margin-bottom: auto;
+  align-items: center;
+}
+
+.container {
+  width: 320px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(201, 230, 238);
+  border-radius: 15px;
+  padding: 25px 10px;
+  margin-top: 50px;
+  margin-left: 550px;
+}
+
+input {
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  margin: 5px;
+  text-align: center;
+  font-size: 18px;
+  color: rgb(119, 119, 119);
+  background-color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.editbut {
+  margin: 15px auto;
+  text-decoration: none;
+}
+.Dbutton {
+  background-color: #00556d;
+  color: #ffffff;
+  border: none;
+  padding: 8px 30px;
+  border-radius: 10px;
+  font-size: 18px;
+  margin: 5px 25px;
+  align-items: center;
+}
+.Dbutton:hover {
+  background-color: rgb(111, 226, 58);
+}
+.Cbutton {
+  background-color: #00556d;
+  color: #ffffff;
+  border: none;
+  padding: 8px 30px;
+  border-radius: 10px;
+  font-size: 18px;
+  margin: 5px 25px;
+  align-items: center;
+}
+.Cbutton:hover {
+  background-color: rgb(238, 13, 13);
+}
+p,
+h2 {
+  font-size: 15px;
+  align-items: center;
+  color: #00556d;
+}
+
+.petPic {
+  align-items: center;
+  width: 200px;
+  height: 200px;
+}

@@ -1,0 +1,119 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'optima', sans-serif	;
+   
+  
+}
+body{
+  background-image: linear-gradient(#ECF2F4, #ECF2F4);
+}
+
+.navbar{ 
+background-color: #ffffff;
+width:100%;
+height:100px; 
+
+margin:-10px; 
+ }
+ .navbar a:hover {
+  background: #f1f1f1;
+  color: #00556D;
+}
+.navbar a{
+float:  right;
+display: block;
+color: #00556D;
+text-align: center;
+padding: 25px 40px;
+text-decoration: none;
+font-size: 18px;
+padding-top: 40px;
+}
+
+
+#center {
+margin-left: auto;
+margin-right: auto;
+}
+
+body{ 
+margin-bottom: auto;
+background-color:white;
+}
+
+.content-table {
+border-collapse: collapse;
+margin: 25px 0;
+background-color:#E2EAEC;
+font-size: 0.9em;
+min-width: 1300px;
+border-radius: 5px 5px 0 0;
+overflow: hidden;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+text-align: center; 
+border-radius: 10px;
+}
+
+.content-table thead tr {
+background-color:lightgrey;
+color: black;
+text-align: left;
+font-weight: bold;
+text-align: center; 
+padding: 12px 15px;
+}
+
+.content-table th,
+.content-table td {
+padding: 12px 15px;
+}
+
+/*lines between rows -*/
+.content-table tbody tr {
+border-bottom: 1px solid lightgrey;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+border-bottom: 1px solid lightgrey;
+}
+
+.content-table tbody tr.active-row {
+font-weight: light;
+color: black;
+font-family: 'optima', sans-serif	;
+
+}
+.logo{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin-top: -20px;
+ width: 250px;
+ height: 140px;
+    
+ }
+
+h2{
+  color: #00556D;
+  
+}
+
+.profile{
+  position: absolute;
+   top: 15px;
+   right: 20px;
+   width: 70px;
+   height: 70px;
+ }
+ a{
+   text-decoration: none;
+ }
+.fa{
+  color: #00556D;
+}

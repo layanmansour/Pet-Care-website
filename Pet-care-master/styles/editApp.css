@@ -1,0 +1,97 @@
+* {
+  font-family: "optima", sans-serif;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "optima", sans-serif;
+  background-color: #fff8f8;
+  color: #00556d;
+  padding-top: 25vh;
+  text-align: center;
+  background: url("../images/background3.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: cursive;
+}
+
+.container {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  background-color: #e2eaec;
+  border-radius: 15px;
+  padding: 25px 10x;
+  margin-left: 125px;
+  margin-top: 20px;
+}
+
+input {
+  height: 40px;
+  width: 200px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  margin: 5px;
+  text-align: center;
+  font-size: 18px;
+  background-color: white;
+}
+select {
+  height: 40px;
+  width: 200px;
+  margin: 5px;
+}
+button {
+  background-color: #00556d;
+  color: #ffffff;
+
+  border: none;
+  padding: 8px 30px;
+  border-radius: 10px;
+  font-size: 18px;
+  margin: 5px 25px;
+}
+.l2:hover {
+  background-color: rgb(111, 226, 58);
+}
+.l:hover {
+  background-color: rgb(255, 11, 11);
+}
+button:hover {
+  background-color: rgb(111, 226, 58);
+}
+
+.navbar {
+  background-color: #ffffff;
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  margin-top: -210px;
+}
+.navbar a:hover {
+  background: #f1f1f1;
+  color: black;
+}
+.navbar a {
+  float: right;
+  display: block;
+  color: #00556d;
+
+  text-align: center;
+  padding: 40px 40px;
+  text-decoration: none;
+  font-size: 18px;
+}
+.logo {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin-top: -20px;
+  width: 250px;
+  height: 140px;
+}

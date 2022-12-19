@@ -1,0 +1,239 @@
+/* Google Font CDN Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'optima', sans-serif	;
+}
+body{
+  min-height: 100vh;
+  width: 100%;
+  background: #e1eef1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+  width: 70%;
+  background: #fff;
+  border-radius: 6px;
+  padding: 20px 60px 30px 40px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.container .content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .content .left-side{
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  position: relative;
+}
+.content .left-side::before{
+  content: '';
+  position: absolute;
+  height: 70%;
+  width: 2px;
+  right: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #afafb6;
+}
+.content .left-side .details{
+  margin: 14px;
+  text-align: center;
+}
+.content .left-side .details i{
+  font-size: 30px;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+}
+.content .left-side .details .topic{
+  font-size: 18px;
+  font-weight: 500;
+}
+.content .left-side .details .text-one,
+.content .left-side .details .text-two{
+  font-size: 14px;
+  color: #afafb6;
+}
+.container .content .right-side{
+  width: 75%;
+  margin-left: 75px;
+}
+.content .right-side .topic-text{
+  font-size: 23px;
+  font-weight: 600;
+  color: #00556D;
+}
+.right-side .input-box{
+  height: 50px;
+  width: 100%;
+  margin: 12px 0;
+}
+.right-side .input-box input,
+.right-side .input-box textarea{
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background-color: #E2EAEC;
+  border-radius: 6px;
+  padding: 0 15px;
+  resize: none;
+}
+.right-side .message-box{
+  min-height: 110px;
+}
+.right-side .input-box textarea{
+  padding-top: 6px;
+}
+.right-side .button{
+  display: inline-block;
+  margin-top: 12px;
+}
+.right-side .button input[type="button"]{
+
+  font-size: 18px;
+  outline: none;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+      background-color: #E2EAEC;
+
+  color: rgb(119, 119, 119);
+    cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button input[type="button"]:hover{
+  background: #7e8aa0;
+}
+
+@media (max-width: 950px) {
+  .container{
+    width: 90%;
+    padding: 30px 40px 40px 35px ;
+  }
+  .container .content .right-side{
+   width: 75%;
+   margin-left: 55px;
+}
+}
+@media (max-width: 820px) {
+  .container{
+    margin: 40px ;
+    height: 100%;
+  }
+  .container .content{
+    flex-direction: column-reverse;
+  }
+ .container .content .left-side{
+   width: 77px;
+   flex-direction: row;
+   margin-top: 40px;
+   justify-content: center;
+   flex-wrap: wrap;
+ }
+ .container .content .left-side::before{
+   display: none;
+ }
+ .container .content .right-side{
+   width: 100%;
+   margin-left: 0;
+ }
+}
+.logo{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin-top: -40px;
+ width: 160px;
+ height: 170px;
+
+}
+.navbar{ 
+  background-color: #ffffff;
+  position: absolute;
+  width:100%;
+  height:100px; 
+  margin-top:-650px;
+  }
+ 
+.navbar{ 
+  background-color: #ffffff;
+  width:100%;
+    height:100px;   
+    margin-top: -730px;
+     }
+     .navbar a:hover {
+      background: #f1f1f1;
+      color: #00556D;
+    }
+    .navbar a{
+    float:  right;
+    display: block;
+    color: #00556D;
+    text-align: center;
+    padding: 25px 40px;
+    text-decoration: none;
+    font-size: 18px;
+    padding-top: 40px;
+    }
+    
+    .edit{
+      position: absolute;
+      top: 90px;
+      display: table;
+    margin-left: 120px;
+      left: 0px;
+    }
+    .but{
+    margin: 15px auto;
+    text-decoration: none;
+
+}
+
+.editbut{
+  margin: 15px auto;
+  text-decoration: none;
+
+}
+button{
+  background-color: white;
+  color: #00556D;
+  border: none;
+  padding: 8px 30px;
+  border-radius: 10px;
+  font-size: 18px;
+  margin: 5px 25px;
+  align-items: center;
+}
+button:hover{
+  background-color: rgb(226, 226, 228);
+}
+
+button{
+    background-color: rgb(255, 255, 255);
+    color: rgb(119, 119, 119);
+    border: none;
+    padding: 8px 30px;
+    border-radius: 10px;
+    font-size: 18px;
+    margin: 5px 25px;
+    align-items: center;
+}
+button:hover{
+    background-color: rgb(226, 226, 228);
+}
+.editbut{
+  color: rgb(85, 79, 79);
+
+}

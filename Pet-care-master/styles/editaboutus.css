@@ -1,0 +1,115 @@
+* {
+  font-family: "optima", sans-serif;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "optima", sans-serif;
+  color: rgb(119, 119, 119);
+  padding-top: 25vh;
+  background: url("../images/layan\ -\ foot.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 400px;
+  height: 510px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  background-color: #e2eaec;
+  border-radius: 15px;
+  padding: 25px 10px;
+  margin-top: -65px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+input {
+  height: 40px;
+  border-radius: 0px;
+  border: none;
+  outline: none;
+  margin: 5px;
+  text-align: center;
+  font-size: 18px;
+  color: rgb(119, 119, 119);
+  background-color: white;
+  align-items: center;
+}
+
+.editbut {
+  margin: 15px auto;
+  text-decoration: none;
+}
+button {
+  background-color: white;
+  color: #00556d;
+  border: none;
+  padding: 8px 30px;
+  border-radius: 10px;
+  font-size: 18px;
+  margin: 5px 25px;
+  align-items: center;
+}
+button:hover {
+  background-color: rgb(226, 226, 228);
+}
+
+.but {
+  margin: 30px;
+  text-decoration: none;
+}
+.Dbutton {
+  background-color: #00556d;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 8px 30px;
+  border-radius: 10px;
+  font-size: 18px;
+  margin: 5px 25px;
+  align-items: center;
+}
+.Cbutton {
+  background-color: #00556d;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 8px 30px;
+  border-radius: 10px;
+  font-size: 18px;
+  margin: 5px 25px;
+  align-items: center;
+}
+.Dbutton:hover {
+  background-color: rgb(111, 226, 58);
+}
+.Cbutton:hover {
+  background-color: #f53c0d;
+}
+p {
+  font-size: 15px;
+  align-items: center;
+}
+.logo {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin-top: -20px;
+  width: 250px;
+  height: 140px;
+}
+
+.navbar {
+  background-color: #ffffff;
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  margin-top: -210px;
+}

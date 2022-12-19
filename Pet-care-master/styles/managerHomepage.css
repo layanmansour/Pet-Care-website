@@ -1,0 +1,84 @@
+* {
+  font-family: 'optima', sans-serif	;
+ }
+
+body{
+background-color: #d6e4e6;
+background: url('../images/mangerHomePage.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #00556D;
+
+
+}
+
+.navbar{ 
+  background-color: #ffffff;
+  width:100%;
+  height:100px; 
+  
+  margin-left:0px;
+  margin-right: 0px;
+  margin-top: -5px;
+  padding: 0px; 
+
+   }
+   .navbar a:hover {
+    background: #f1f1f1;
+    color: #00556D;
+  }
+  .navbar a{
+  float:  right;
+  display: block;
+  color: #00556D;
+  text-align: center;
+  padding: 25px 40px;
+  text-decoration: none;
+  font-size: 18px;
+  padding-top: 40px;
+  }
+  
+  .logo{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-top: -20px;
+   width: 250px;
+   height: 140px;
+      
+   }
+
+       .container{
+        
+     
+        
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+        border-radius: 15px;
+        padding: 25px 10x;
+        margin-top: 30px;
+        margin-left: 0px;
+        font-size: 50px;
+        text-align: center;
+        font-family: 'optima', sans-serif	;
+    
+           }
+           p{
+            font-size: 15px; 
+            font-family: 'Times New Roman', Times, serif;  
+           }
+           
+          
+          
+          
+         
+          
+         
+          
+          
+          
